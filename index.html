@@ -1,0 +1,13 @@
+<!doctype html>
+<head>
+  <title>Production Cross Storage Hub</title>
+  <script type="text/javascript" src="bower_components/cross-storage/dist/hub.min.js"></script>
+</head>
+<body>
+  <script type="text/javascript">
+    CrossStorageHub.init([
+        {origin: /.*/, allow: ['get', 'set', 'del']},
+      ]);
+  </script>
+</body>
+</html>
