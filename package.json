@@ -1,0 +1,22 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "A hub for cross storage tooling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobparis/cross-storage-hub.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jacobparis/cross-storage-hub/issues"
+  },
+  "homepage": "https://github.com/jacobparis/cross-storage-hub#readme",
+  "dependencies": {
+    "cross-storage": "^1.0.0"
+  }
+}
